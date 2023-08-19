@@ -1,57 +1,249 @@
-body{
+header {
 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+main.container {
+
+    width: 60%;
+    margin: auto;
+}
+
+header h1 {
+
+    color: purple;
+    margin-bottom: 0px;
+}
+
+header p {
+
+    margin-top: 0px;
+
+}
+
+.navig li {
+
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    text-align: right;
+
+}
+
+section.picture {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 100px auto;
+
+}
+
+section.picture img {
+
+    width: 40%;
+    margin: auto 40px;
+
+}
+
+.tell-us {
 
     background-color: white;
-    
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-header h1{
-
-color: purple;
-
-}
-
-header ul{
-
-
-    display: inline;
-    list-style-type: none;
-}
-
-header.h2{
-
-    text-align: center;
-}
-
-header.span{
+.our-team {
 
     text-align: center;
 
 }
 
-.center{
+hr {
 
+    border-top: 2px solid black;
+    width: 10%;
 
-    text-align: center;
+}
 
+.team {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+div.team div img {
+
+    width: 40%;
+}
+
+.center {
+    padding: 8px;
     background-color: purple;
+    margin: 50px auto;
 
-   
 }
 
-.sitemap{
+.center h1 {
+    color: white;
+    text-align: center;
+
+
+}
+
+.center hr {
+
+    border-top: 2px solid black;
+    width: 6.5%;
+
+}
+
+.center input {
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main second */
+.testimonials {
+
+    text-align: center;
+}
+
+.testimonials hr {
+
+    border-top: 2px solid black;
+    width: 6.5%;
+
+}
+
+.testers {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.testers div img {
+
+    width: 45%;
+}
+
+
+/* footer */
+
+footer {
+
+    box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
+0px -14px 20px -20px rgba(0,0,0,0.45);
+
+    margin-top: 80px;
+}
+
+div.spider h1 {
+
+    margin-top: 40px;
+}
+
+.sitemap {
 
     list-style-type: none;
 }
 
-.contacts{
+.about {
 
     list-style-type: none;
+    margin-top: 80px;
 }
 
-a{
+.contacts {
 
-    text-decoration: none;
+    list-style-type: none;
     color: black;
-    list-style-type: none;
 }
+
+i {
+
+    margin: 4px;
+
+}
+
+
+
+.emine{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 60%;
+    margin: auto;
+
+}
+
