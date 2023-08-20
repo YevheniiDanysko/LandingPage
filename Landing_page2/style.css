@@ -29,7 +29,7 @@ main.container img {
 
 .begin button {
 
-    background-color: blueviolet;
+    background-color: rgba(155,93,198,255);
     border-radius: 15px;
     padding: 8px;
     width: 7%;
@@ -50,7 +50,7 @@ section.diplom {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 90%;
-    margin: 100px auto;
+    margin: 0px auto;
 }
 
 section.diplom img {
@@ -68,9 +68,10 @@ section.certif {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 90%;
-    margin: 100px auto;
-background-color: black;
+
+    margin: 100px 0px;
+background-color: #14162b;
+padding: 50px;
 }
 
 section.certif h1{
@@ -121,5 +122,33 @@ section.career button{
 }
 
 /* footer */
+
+footer{
+background-color: #14162b;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+color: ;
+}
+
+ul.four{
+
+    display: flex;
+    list-style-type: none;
+}
+i{
+margin: 10px;
+
+}
+
+footer li{
+
+color: rgba(241,252,253,255);
+
+}
+
+footer h3{
+
+    color: rgba(129,93,198,255);
+}
 
 
