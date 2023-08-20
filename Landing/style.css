@@ -81,7 +81,7 @@ div.team div img {
 }
 
 .center {
-    padding: 8px;
+    padding: 10px;
     background-color: purple;
     margin: 50px auto;
 
@@ -91,25 +91,32 @@ div.team div img {
     color: white;
     text-align: center;
 
-
 }
 
 .center hr {
 
     border-top: 2px solid black;
     width: 6.5%;
-
 }
 
-.center input {
+.text{
+padding: 20px;
+    display: flex;
+   justify-content: center;
+    margin: 10px auto;
+}
+input{
 
-    text-align: center;
+    margin-right: 7px;
 }
 
 
 
 
 
+
+
+/* розовое */
 
 
 
