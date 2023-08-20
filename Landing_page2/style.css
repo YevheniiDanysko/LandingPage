@@ -1,0 +1,125 @@
+/* Хэдэр */
+
+
+header {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Montserrat';
+}
+
+.begin li {
+
+    display: inline-block;
+    text-align: right;
+    margin: 6px;
+
+}
+
+main.container {
+
+
+    margin: auto;
+}
+
+main.container img {
+
+    margin-left: 120px;
+}
+
+.begin button {
+
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: 8px;
+    width: 7%;
+    border: none;
+    color: white;
+}
+
+header {
+
+    box-shadow: -1px 21px 26px -2px rgba(0, 0, 0, 0.3);
+
+}
+
+/* DIPLOM */
+
+section.diplom {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 100px auto;
+}
+
+section.diplom img {
+
+    width: 40%;
+    margin: auto;
+
+}
+
+
+/* УДОСТОВЕРЕНИЕ */
+
+
+section.certif {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 100px auto;
+background-color: black;
+}
+
+section.certif h1{
+
+    color: white;
+}
+section.certif p{
+
+    color: white;
+}
+
+section.diplom img{
+
+    width: 80%;
+    padding: 100px;
+
+}
+
+img{
+
+
+    margin-left: 100px;
+}
+
+
+/* Карьерный центр */
+
+section.career {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.career h1 p{
+
+    text-align: right;
+}
+
+section.career button{
+
+    color: purple;
+    border-radius: 15px;
+    padding: 8px;
+    width: 25%;
+    border-color: purple;
+}
+
+/* footer */
+
+
