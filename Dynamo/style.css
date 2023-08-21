@@ -1,0 +1,98 @@
+/* Хэдэр */
+
+header {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.begin li {
+
+    display: inline-block;
+    text-align: right;
+    margin: 6px;
+
+}
+main.container {
+
+
+    margin: auto;
+}
+
+main.container img {
+
+    margin-left: 120px;
+}
+
+.begin button {
+
+    background-color: blue;
+    border-radius: 15px;
+    padding: 8px;
+    width: 10%;
+    border: none;
+    color: white;
+}
+
+/* История */
+section.klub {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 0px auto;
+}
+
+section.klub img {
+
+    width: 70%;
+    margin: auto;
+
+}
+
+/* Donat */
+
+section.donate{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section.donate img {
+
+    max-width:100%;
+                max-height: 100%;
+
+}
+
+.tell-us {
+
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* footer */
+
+.contacts {
+
+    list-style-type: none;
+    color: black;
+}
+
+
+
+ul.internet{
+
+    display: flex;
+    list-style-type: none;
+}
+
+
+i {
+
+    margin: 4px;
+
+}
+
