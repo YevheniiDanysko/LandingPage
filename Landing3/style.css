@@ -1,0 +1,75 @@
+header{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: blue;
+}
+body{
+background-color: #333333;
+    width: 80%;
+    margin: auto;
+}
+img{
+margin: 20px;
+
+}
+
+.punkt li{
+
+display: inline-block;
+    text-align: right;
+    margin: 20px;
+
+}
+
+.punkt button {
+
+    background-color: rgba(252,212,44,255);
+    border-radius: 15px;
+    padding: 15px;
+    width: 15%;
+    border: none;
+    color: rgba(103,87,18,255);
+    font-size: 15px
+}
+
+
+
+
+
+
+
+
+.center h3{
+
+color: white;
+    position: absolute;
+}
+
+.center h1{
+margin-left: 40px;
+color: white;
+    position: absolute;
+}
+
+.center img{
+
+width: 100%;
+margin: auto;
+
+
+}
+
+button.donate{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.vnutr{
+
+    position: relative;
+
+}
